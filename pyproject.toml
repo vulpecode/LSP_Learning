@@ -1,0 +1,14 @@
+[project]
+name = "LSP_Learning"
+version = "0.0.1"
+dependencies = [
+    "pycodestyle >= 2.12.1",
+    "pydocstyle >= 6.3",
+    "pylint >= 3.2.7",
+    "pytest >= 8.3.3"
+]
+requires-python = ">= 3.13"
+
+[tool.pytest.ini_options]
+log_cli = true
+log_cli_level = "DEBUG"
